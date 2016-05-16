@@ -18,9 +18,12 @@ namespace MVCWebsite.Controllers
         //    return "this is index";
         //}
 
-        public string Welcome(string ID)
+        public ActionResult Welcome(string name, int numTimes = 1)
         {
-            return HttpUtility.HtmlEncode("Hello " + ID);
+            ViewBag.Message = "Hello " + name;
+            ViewBag.NumTimes = numTimes;
+
+            return View();
         }
     }
 }
