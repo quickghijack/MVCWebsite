@@ -27,7 +27,7 @@ namespace MVCWebsite.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-           
+
             context.Movies.AddOrUpdate(i => i.Title,
             new Movie
             {
@@ -58,6 +58,7 @@ namespace MVCWebsite.Migrations
                Title = "Rio Bravo",
                ReleaseDate = DateTime.Parse("1959-4-15"),
                Genre = "Western",
+               Rating = "PG",
                Price = 3.99M
            }
        );
