@@ -29,7 +29,7 @@ namespace MVCWebsite.Controllers
 
             GenreLst.AddRange(GenreQry.Distinct());
             ViewBag.movieGenre = new SelectList(GenreLst);
-
+            
             var movies = from m in db.Movies
                          select m;
 

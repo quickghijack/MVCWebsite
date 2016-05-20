@@ -211,6 +211,26 @@
     <Compile Include="Migrations\201605190718316_Rating.Designer.cs">
       <DependentUpon>201605190718316_Rating.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605190801378_DataAnnotations.cs" />
+    <Compile Include="Migrations\201605190801378_DataAnnotations.Designer.cs">
+      <DependentUpon>201605190801378_DataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605190828516_AddDateTypeValiding.cs" />
+    <Compile Include="Migrations\201605190828516_AddDateTypeValiding.Designer.cs">
+      <DependentUpon>201605190828516_AddDateTypeValiding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605190832299_AddDateTypeValiding1.cs" />
+    <Compile Include="Migrations\201605190832299_AddDateTypeValiding1.Designer.cs">
+      <DependentUpon>201605190832299_AddDateTypeValiding1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605190834207_AddDateTypeValiding11.cs" />
+    <Compile Include="Migrations\201605190834207_AddDateTypeValiding11.Designer.cs">
+      <DependentUpon>201605190834207_AddDateTypeValiding11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605190836127_AddDateTypeValiding3.cs" />
+    <Compile Include="Migrations\201605190836127_AddDateTypeValiding3.Designer.cs">
+      <DependentUpon>201605190836127_AddDateTypeValiding3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -304,6 +324,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605190718316_Rating.resx">
       <DependentUpon>201605190718316_Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605190801378_DataAnnotations.resx">
+      <DependentUpon>201605190801378_DataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605190828516_AddDateTypeValiding.resx">
+      <DependentUpon>201605190828516_AddDateTypeValiding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605190832299_AddDateTypeValiding1.resx">
+      <DependentUpon>201605190832299_AddDateTypeValiding1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605190834207_AddDateTypeValiding11.resx">
+      <DependentUpon>201605190834207_AddDateTypeValiding11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605190836127_AddDateTypeValiding3.resx">
+      <DependentUpon>201605190836127_AddDateTypeValiding3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
